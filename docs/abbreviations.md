@@ -11,8 +11,13 @@ Grown from every document the user shares. `?` = meaning not confirmed by the us
 | SNow | ServiceNow application |
 | HLD | High Level Design / Description (section of the TS) |
 | RICEFW | Reports, Interfaces, Conversions, Enhancements, Forms, Workflows (development object classes) |
-| EFS | RICEFW ID prefix for S4 interface work (`EFS_XXX_XXX`) |
-| IFS | RICEFW ID prefix for middleware / direct-connection interface work (`IFS_XXX_XXX`) |
+| EFS | FS / RICEFW ID prefix of the Enhancement (Extension) type, e.g. EFS_P2P_001. RICEFW type letters: R Report, I Interface, C Conversion, E Enhancement/Extension, F Form, W Workflow (so RFS, IFS, CFS, EFS, FFS, WFS; full wording ?). The deck also uses EFS_XXX_XXX for the S4 side of interfaces and IFS_XXX_XXX for middleware / direct-connection work |
+| ETS | TS prefix for an enhancement: TS file name = ETS_ + FS name, e.g. ETS_EFS_P2P_001 |
+| TSD | Technical Specification Design document (TS template title) |
+| SolMan / SOLMAN / SolDoc | SAP Solution Manager; SolDoc is part of it (same thing); holds FS/TS links, document location, transport numbers |
+| GeodIS | Repository where validated FS versions (V1.0+) are uploaded (details ?) |
+| GPDD | ? (related document type in templates; details ?) |
+| Stream | Programme workstream in document headers and RICEFW IDs; valid list in docs/reference/streams.md (also P2P = Procure to Pay, etc.) |
 | QA | Quality Assurance (here: technical review of design and code) |
 | ATC | ABAP Test Cockpit |
 | VForge | Code-quality check tool run on transports (details ?) |
@@ -29,7 +34,6 @@ Grown from every document the user shares. `?` = meaning not confirmed by the us
 | AMDP | ABAP Managed Database Procedures |
 | IICS | Informatica Intelligent Cloud Services |
 | ODP | Operational Data Provisioning |
-| SolDoc | Solution Documentation (tool holding the FS; details ?) |
 | PAF / PPF | Parallel Processing Framework (the deck uses both abbreviations; to be clarified) |
 | ACDOCA | Universal Journal table (S/4HANA) |
 | EPIC | Jira epic |

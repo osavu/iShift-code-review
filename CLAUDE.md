@@ -16,6 +16,7 @@ Language: English only.
 - @docs/rules/interfaces.md - interface work split and iShift integration strategy
 - @docs/rules/ts-fs-review.md - TS/FS document checks
 - @docs/templates/review-comment.md - format of review findings
+- Read on demand (not auto-loaded), only when reviewing a TS/FS: docs/reference/ts-template-structure.md, docs/reference/fs-template-structure.md, docs/reference/streams.md
 
 ## Working mode
 - Code and documents are NOT in this repo. The user attaches them per task. Review only what is attached.
