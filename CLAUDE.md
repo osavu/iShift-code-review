@@ -11,7 +11,7 @@ Language: English only.
 - @docs/sap-landscape.md - SAP systems in scope (to be completed by the user)
 
 ## Review rules (apply when reviewing)
-- @docs/rules/process-and-jira.md - QA process, Jira workflow, review triggers, corrective review scope
+- @docs/rules/qa-process-and-dev-workflow.md - QA process, Jira workflow, review triggers, corrective review scope
 - @docs/rules/abap-guidelines.md - guiding principles, Fiori-first, reports decision tree
 - @docs/rules/interfaces.md - interface work split and iShift integration strategy
 - @docs/rules/ts-fs-review.md - TS/FS document checks
