@@ -18,6 +18,8 @@ Grown from every document the user shares. `?` = meaning not confirmed by the us
 | GeodIS | Repository where validated FS versions (V1.0+) are uploaded (details ?) |
 | GPDD | ? (related document type in templates; details ?) |
 | Stream | Programme workstream in document headers and RICEFW IDs; valid list in docs/reference/streams.md (also P2P = Procure to Pay, etc.) |
+| GTS | SAP Global Trade Services |
+| DCL | CDS Data Control Language: access control object for CDS views (authorization) |
 | QA | Quality Assurance (here: technical review of design and code) |
 | ATC | ABAP Test Cockpit |
 | VForge | Code-quality check tool run on transports (details ?) |
